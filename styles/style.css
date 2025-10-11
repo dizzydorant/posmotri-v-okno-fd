@@ -14,7 +14,7 @@ html {
   align-items: center;
   margin: auto;
   color: #fff;
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: Fira Sans Condensed, Arial, sans-serif;
   font-size: 18px;
   background-color: #1b1919;
   inline-size: 1200px;
@@ -67,21 +67,21 @@ ol {
 }
 
 .content__list-container {
+  position: relative;
   display: flex;
   flex-direction: column;
-  gap: 30px;
   height: 298px;
   overflow: auto;
+  gap: 30px;
 }
 
 .content__list {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 29px;
 }
 
 .content__list-item {
-  padding-top: 3px;
   padding-right: 3px;
   padding-left: 3px;
 }
@@ -90,8 +90,8 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 26px;
-  max-width: 399px;
-  max-height: 534px;
+  width: 100%;
+  height: 100%;
 }
 
 .result__video-container {
@@ -154,7 +154,7 @@ ol {
 
 .content__video-card-title {
   overflow: hidden;
-  font-family: oswald;
+  font-family: Oswald, Arial, sans-serif;
   font-weight: 700;
   font-size: 30px;
   text-transform: uppercase;
@@ -202,6 +202,7 @@ ol {
 .search-form__label {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 5px;
   width: fit-content;
 }
@@ -213,7 +214,7 @@ ol {
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
   color: #fff;
-  font-family: Fira Sans Condensed;
+  font-family: Fira Sans Condensed, Arial, sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
@@ -242,7 +243,7 @@ ol {
   padding: 1px;
 }
 
-.search-form__label-text:hover {
+.search-form__label:hover {
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-decoration-skip-ink: none;
@@ -268,7 +269,7 @@ ol {
   min-height: 34px;
   border: 1px solid #fff;
   color: #fff;
-  font-family: Fira Sans Condensed;
+  font-family: Fira Sans Condensed, Arial, sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 100%;
@@ -316,9 +317,4 @@ ol {
 .content__card-link:focus-visible {
   outline: 1px solid #ffffff;
   outline-offset: 1px;
-}
-
-.content__list-container {
-  position: relative;
-  min-width: 399px;
 }
